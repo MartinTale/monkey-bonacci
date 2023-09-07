@@ -36,7 +36,7 @@ export let autoMonkey: Monkey;
 export const endTime = el("b");
 
 export function initGame() {
-	const gameNameElement = el("h1.name", "MonkeyBonacci");
+	const gameNameElement = el("h1.name", "Gibbonacci");
 
 	mount(gameContainer, gameNameElement);
 	mount(gameContainer, numbersFoundContainer);
